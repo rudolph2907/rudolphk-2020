@@ -22,9 +22,9 @@
       </p>
       <p>
         Currently freelancing and owner of a digital consultancy, Nailed
-        Digital, where we develop and optimize websites, web and mobile
-        applications. We also provide add-on services like web consultancy, web
-        analytics, SEO, email marketing and digital training.
+        Digital, where we develop and optimize websites and web applications. We
+        also provide add-on services like web consultancy, web analytics, SEO,
+        email marketing and digital training.
       </p>
       <p>
         In my over {{ years }} years of experience, I worked with a range of
