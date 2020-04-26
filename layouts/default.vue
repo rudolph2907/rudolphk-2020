@@ -18,7 +18,10 @@
     <footer class="footer has-margin-top-30" style="padding: 10px 0;">
       <div class="has-text-centered is-size-7">
         &copy; {{ year }}. rudolphk.co.za. All Rights Reserved. Built with
-        Nuxt.js
+        Nuxt.js. You can fork the template if you like it:
+        <a href="https://github.com/rudolph2907/rudolphk-2020" target="_blank"
+          >Fork this.</a
+        >
       </div>
     </footer>
   </div>
