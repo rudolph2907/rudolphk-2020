@@ -77,7 +77,7 @@
           <div class="field-body">
             <div class="field">
               <div class="control">
-                <button class="button is-primary">
+                <button type="submit" class="button is-primary">
                   Send message
                 </button>
               </div>
