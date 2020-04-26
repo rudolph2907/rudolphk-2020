@@ -20,7 +20,12 @@
       <div class="has-text-centered">
         <h2 class="title is-4">Send a message</h2>
       </div>
-      <form name="contact" data-netlify="true">
+      <form
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        name="contact"
+      >
         <input type="hidden" name="form-name" value="contact" />
         <div class="field is-horizontal">
           <div class="field-label is-normal">
