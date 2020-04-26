@@ -20,7 +20,8 @@
       <div class="has-text-centered">
         <h2 class="title is-4">Send a message</h2>
       </div>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
         <div class="field is-horizontal">
           <div class="field-label is-normal">
             <label class="label">From</label>
@@ -45,7 +46,6 @@
                   type="email"
                   placeholder="Email"
                   required
-                  value="alex@smith.com"
                 />
               </p>
             </div>
