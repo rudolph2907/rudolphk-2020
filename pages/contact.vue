@@ -16,6 +16,75 @@
         <strong>Phone:</strong>
         <a :href="tel">{{ phone }}</a>
       </p>
+      <hr />
+      <div class="has-text-centered">
+        <h2 class="title is-4">Send a message</h2>
+      </div>
+      <form name="contact" method="POST" data-netlify="true">
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">From</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <p class="control is-expanded">
+                <input
+                  name="name"
+                  class="input"
+                  type="text"
+                  placeholder="Name"
+                  required
+                />
+              </p>
+            </div>
+            <div class="field">
+              <p class="control is-expanded">
+                <input
+                  class="input is-success"
+                  name="email"
+                  type="email"
+                  placeholder="Email"
+                  required
+                  value="alex@smith.com"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="field is-horizontal">
+          <div class="field-label is-normal">
+            <label class="label">Message</label>
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <textarea
+                  name="message"
+                  class="textarea"
+                  placeholder="Explain how I can help you"
+                  required
+                ></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="field is-horizontal">
+          <div class="field-label">
+            <!-- Left empty for spacing -->
+          </div>
+          <div class="field-body">
+            <div class="field">
+              <div class="control">
+                <button class="button is-primary">
+                  Send message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </template>

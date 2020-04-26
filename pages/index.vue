@@ -113,6 +113,19 @@
         >
       </p>
     </div>
+    <span class="header is-size-5">
+      04. My Services
+    </span>
+    <div class="is-size-6 has-margin-top-30 content">
+      <ul>
+        <li>Website / Web Application Development</li>
+        <li>Web/Tech Consulting</li>
+        <li>Development Troubleshooting</li>
+        <li>Training</li>
+        <li>Product Management</li>
+        <li>Prototyping for Startups</li>
+      </ul>
+    </div>
   </div>
 </template>
 
