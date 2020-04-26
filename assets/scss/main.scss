@@ -1,0 +1,28 @@
+@import 'bulma/sass/utilities/_all.sass';
+@import '~bulma';
+@import '~bulma-helpers/sass/mixins/_all';
+@import '~bulma-helpers/sass/helpers/_all';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #eee;
+}
+
+.header {
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition-duration: 0.3s;
+  transition-property: height, opacity;
+  transition-timing-function: ease-in-out;
+  overflow: hidden;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
