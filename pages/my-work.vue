@@ -1,7 +1,7 @@
 <template>
   <div class="container has-padding-30">
     <h1 class="header is-size-5" style="display: inline-block">
-      01. My Work
+      05. My Work
     </h1>
     <div class="is-size-6 has-margin-top-30 content">
       <p>
@@ -17,7 +17,7 @@
     </div>
     <div class="is-size-6 has-margin-top-30 content">
       <h2 class="header is-size-5" style="display: inline-block">
-        03. My Products
+        07. My Products
       </h2>
       <ul>
         <li>
@@ -49,7 +49,7 @@
     </div>
     <div class="is-size-6 has-margin-top-30 content">
       <h2 class="header is-size-5" style="display: inline-block">
-        03. My Open Source Projects
+        08. My Open Source Projects
       </h2>
       <p>
         Here are a few open source projects I've been working on over the past
