@@ -34,6 +34,16 @@
         work experience. I am a full-stack developer, which means I am
         comfortable working with both front-end and back-end technologies.
       </p>
+      <p>
+        Also check out my profiles on
+        <a href="https://www.indiehackers.com/rudolphk" target="_blank"
+          >Indie Hackers</a
+        >
+        and
+        <a href="https://www.producthunt.com/@rudolphk" target="_blank"
+          >Product Hunt</a
+        >
+      </p>
     </div>
     <span class="header is-size-5">
       02. Tech Stack

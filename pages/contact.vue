@@ -1,7 +1,7 @@
 <template>
   <div class="container has-padding-30">
     <h1 class="header is-size-5" style="display: inline-block;">
-      01. Contact
+      06. Contact
     </h1>
     <div class="is-size-6 has-margin-top-30 content">
       <p>
@@ -46,7 +46,7 @@
             <div class="field">
               <p class="control is-expanded">
                 <input
-                  class="input is-success"
+                  class="input"
                   name="email"
                   type="email"
                   placeholder="Email"
