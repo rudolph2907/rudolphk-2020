@@ -1,7 +1,7 @@
 <template>
   <div class="container has-padding-30">
     <h1 class="header is-size-5" style="display: inline-block;">
-      06. Contact
+      08. Contact
     </h1>
     <div class="is-size-6 has-margin-top-30 content">
       <p>
