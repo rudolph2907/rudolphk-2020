@@ -42,7 +42,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: ['nuxt-purgecss'],
   /*
    ** Nuxt.js modules
    */
