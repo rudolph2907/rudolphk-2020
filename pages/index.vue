@@ -1,8 +1,6 @@
 <template>
   <div class="container has-padding-30">
-    <span class="header is-size-5">
-      01. About Me
-    </span>
+    <span class="header is-size-5"> 01. About Me </span>
     <div class="is-uppercase is-size-3 has-margin-top-30">
       My name is Rudolph Koegelenberg.<br />I am a Full Stack Developer, Tech
       Consultant, Product Manager, Business Owner, Entrepreneur, Maker,
@@ -21,10 +19,16 @@
         Ex-Technical Director in one of South Africa's leading digital agencies.
       </p>
       <p>
-        Currently freelancing and owner of a digital consultancy, Nailed
-        Digital, where we develop and optimize websites and web applications. We
-        also provide add-on services like web consultancy, web analytics, SEO,
-        email marketing and digital training.
+        Currently part-time owner of a digital consultancy of Nailed Digital
+        where we develop and optimize websites and web applications. We also
+        provide add-on services like web consultancy, web analytics, SEO, email
+        marketing and digital training.
+      </p>
+      <p>
+        Currently full-time Head of Engineer for Omnisient where we enable data
+        collaboration in a compliant way on a big data scale. I strive to find
+        creative and innovative solutions, while still making sure it makes
+        business sense.
       </p>
       <p>
         In my over {{ years }} years of experience, I worked with a range of
@@ -45,9 +49,7 @@
         >
       </p>
     </div>
-    <span class="header is-size-5">
-      02. Tech Stack
-    </span>
+    <span class="header is-size-5"> 02. Tech Stack </span>
     <div class="is-size-6 has-margin-top-30 content">
       <p>
         I always make sure I stay up to date with the latest technologies and
@@ -92,9 +94,7 @@
         <progress class="progress is-warning" value="70" max="100"></progress>
       </div>
     </div>
-    <span class="header is-size-5">
-      03. Experience &amp; Qualifications
-    </span>
+    <span class="header is-size-5"> 03. Experience &amp; Qualifications </span>
     <div class="is-size-6 has-margin-top-30 content">
       <p>
         Best to view my qualifications and experience on my
@@ -123,9 +123,7 @@
         >
       </p>
     </div>
-    <span class="header is-size-5">
-      04. My Services
-    </span>
+    <span class="header is-size-5"> 04. My Services </span>
     <div class="is-size-6 has-margin-top-30 content">
       <ul>
         <li>Website / Web Application Development</li>
@@ -146,14 +144,14 @@ export default {
   name: 'Home',
   data() {
     return {
-      years: new Date().getFullYear() - 2004
+      years: new Date().getFullYear() - 2005,
     }
   },
   head: {
     title:
       'Rudolph K - Full Stack Developer, Tech Consultant, Product Manager, Business Owner, Entrepreneur, Freelancer',
     description:
-      'My name is Rudolph Koegelenberg. I am a Full Stack Developer, Tech Consultant, Product Manager, Business Owner, Entrepreneur, Freelancer'
-  }
+      'My name is Rudolph Koegelenberg. I am a Full Stack Developer, Tech Consultant, Product Manager, Business Owner, Entrepreneur, Freelancer',
+  },
 }
 </script>
